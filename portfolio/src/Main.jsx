@@ -14,12 +14,13 @@ import {createBrowserRouter, RouterProvider} from "react-router-dom";
 import * as ReactDOM from "react-dom/client";
 import Projects from './Pages/Projects';
 import Home from './Pages/Home';
+import BarTab from './Pages/BarTab'
 
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />,
+    element: <BarTab />,
   },
   {
     path: "/Project",
