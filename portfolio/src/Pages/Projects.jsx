@@ -1,5 +1,5 @@
-import Cartes from '../Cartes/Cartes';
-import CarteV2 from '../Cartes/CarteV2';
+import Cartes from '../Composant/Cartes/Cartes';
+import CarteV2 from '../Composant/Cartes/CarteV2';
 
 function Projects(){
     return(

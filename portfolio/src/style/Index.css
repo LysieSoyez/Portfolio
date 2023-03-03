@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?amily=Tilt+Neon&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -47,4 +48,28 @@ a {
 }
 .all_cards .one_card .description ul li a #lien {
   width: 4vw;
+}
+
+html .bartab, body .bartab {
+  display: none;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: "Tilt Neon", cursive;
+}
+.header h1 {
+  font-size: 3rem;
+}
+.header p {
+  font-size: 0.5rem;
+  color: grey;
+}
+.header img {
+  margin: auto;
+  width: 25vw;
+  border-radius: 50%;
+  border: 3px solid #5bc0be;
 }/*# sourceMappingURL=Index.css.map */

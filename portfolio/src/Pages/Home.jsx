@@ -1,16 +1,12 @@
 import * as React from 'react';
+import BarTab from '../Composant/BarTab';
+import Header from '../Composant/Header';
 
 function Home() {
   return (
     <>
-    <h1>
-      Lysie Soyez
-    </h1>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      Porro vel placeat accusamus quam dolores neque blanditiis quasi explicabo, 
-      nam ut eius atque. Iusto, eos repellat! Odit voluptates unde error excepturi!
-    </p>
+    <Header />
+    <BarTab />
     </>
   )
 }

@@ -1,0 +1,22 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Tilt Neon', cursive;
+
+    h1{
+        font-size: 3rem;
+    }
+
+    p{
+        font-size: 0.5rem ;
+        color: grey;
+    }
+
+    img{
+        margin: auto;
+        width: 25vw;
+        border-radius: 50%;
+        border: 3px solid $color4;
+    }
+}
