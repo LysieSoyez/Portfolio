@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { ChakraProvider } from '@chakra-ui/react';
 import Home from './Pages/Home';
+import Technologie from './Pages/Technologie';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <ChakraProvider>

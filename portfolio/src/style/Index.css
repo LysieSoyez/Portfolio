@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?amily=Tilt+Neon&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -50,10 +49,6 @@ a {
   width: 4vw;
 }
 
-html .bartab, body .bartab {
-  display: none;
-}
-
 .header {
   display: flex;
   flex-direction: column;
@@ -72,4 +67,26 @@ html .bartab, body .bartab {
   width: 25vw;
   border-radius: 50%;
   border: 3px solid #5bc0be;
+}
+
+.title {
+  display: flex;
+  align-items: baseline;
+}
+.title img {
+  width: 10vw;
+}
+.title h3 {
+  font-size: 1.5rem;
+  margin-left: 2%;
+}
+
+.ulProjects {
+  margin-left: 5%;
+}
+
+.techbase {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }/*# sourceMappingURL=Index.css.map */

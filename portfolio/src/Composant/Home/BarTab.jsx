@@ -1,6 +1,7 @@
-import Projects from "../Pages/Projects";
+import Projects from "../../Pages/Projects";
 import * as React from 'react';
 import { Tabs, TabList, TabPanels, Tab, TabPanel } from '@chakra-ui/react';
+import Technologie from "../../Pages/Technologie";
 
 
 function BarTab(){
@@ -17,7 +18,7 @@ function BarTab(){
 
       <TabPanels>
         <TabPanel>
-          //Tech
+          <Technologie />
         </TabPanel>
 
         <TabPanel>
