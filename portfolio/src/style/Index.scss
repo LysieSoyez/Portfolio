@@ -1,6 +1,23 @@
 @import './Settings';
-@import '../style/components/cartes';
+
+
+/*Pages*/
+
+//Home
 @import '../style/pages/Home';
-@import '../style/components/Header';
+
+
+
+/*Composant*/
+
+//Home
+@import '../style/components/Home/Header';
+@import '../style/components/Home/BarTabMobil';
+@import '../style/pages/Technologie';
+
+//Projects
+@import '../style/components/Cartes/cartes';
+
+//Technologie
 @import '../style/components/Technologies/TechnoUtil';
 @import '../style/components/Technologies/TechnoBases';

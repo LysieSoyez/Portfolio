@@ -3,12 +3,15 @@ import ReactDOM from 'react-dom/client';
 import { ChakraProvider } from '@chakra-ui/react';
 import Home from './Pages/Home';
 import Technologie from './Pages/Technologie';
+import MenuBurg from './Composant/Home/MenuBurg';
+import BarTabMobil from './Composant/Home/BarTabMobil';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <ChakraProvider>
     <Home />
-  </ChakraProvider>,
-)
+  </ChakraProvider>
+);
+
 
 
 // import * as React from 'react';

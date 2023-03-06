@@ -3,7 +3,10 @@ import CarteV2 from '../Composant/Cartes/CarteV2';
 
 function Projects(){
     return(
+        <>
         <CarteV2 />
+        <CarteV2 />
+        </>
     )
 }
 export default Projects;

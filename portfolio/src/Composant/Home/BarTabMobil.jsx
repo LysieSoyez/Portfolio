@@ -5,17 +5,12 @@ import Technologie from "../../Pages/Technologie";
 import Contact from "../../Pages/Contact";
 
 
-function BarTab(){
+function BarTabMobil(){
   return (
     <>
-    <div className="bartab">
-    <Tabs isFitted variant='enclosed' colorScheme="blackAlpha" align="center">
-      <TabList mb='1em'>
-        <Tab>Technos</Tab>
-        <Tab>Projets</Tab>
-        <Tab>About</Tab>
-        <Tab>Contacts</Tab>
-      </TabList>
+    <div className="bartabmobil">
+    <Tabs isFitted variant='unstyled' colorScheme="red">
+
 
       <TabPanels>
         <TabPanel>
@@ -35,10 +30,16 @@ function BarTab(){
         </TabPanel>
 
       </TabPanels>
+      <TabList mb='1em'>
+        <Tab><img src="/images/la-technologie.png" alt="Techno" /></Tab>
+        <Tab><img src="/images/project-management.png" alt="Projects" /></Tab>
+        <Tab><img src="/images/information-button.png" alt="About" /></Tab>
+        <Tab><img src="/images/letter.png" alt="Contacts" /></Tab>
+      </TabList>
     </Tabs>
     </div>
     </>
   )
 }
 
-export default BarTab;
+export default BarTabMobil;
