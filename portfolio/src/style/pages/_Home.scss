@@ -2,4 +2,8 @@ html,body{
     .bartab{
         display: none;
     }
+
+    @media screen and (max-with: "1024px") {
+        background-color: yellow;
+    }
 }

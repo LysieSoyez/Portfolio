@@ -8,7 +8,8 @@
             "lienGit": "https://github.com/LysieSoyez/weather-app",
             "gitTexte": "Repositori GitHub",
             "lienAutre": "https://lysiesoyez.github.io/weather-app/",
-            "autreTexte":"Link to the Website"
+            "autreTexte":"Link to the Website",
+            "tech": "SASS JavaScript API"
         },
         {
             "key":"2",
@@ -19,6 +20,7 @@
             "lienGit": "https://github.com/LysieSoyez/cogip",
             "gitTexte": "Repositori GitHub",
             "lienAutre": "https://cogip-3ubzgqgdi-ed0598.vercel.app/",
-            "autreTexte":"Link to the Website"
+            "autreTexte":"Link to the Website",
+            "tech": "SASS React API"
         }
 ]

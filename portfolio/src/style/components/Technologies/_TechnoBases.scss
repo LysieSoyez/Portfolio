@@ -1,10 +1,14 @@
 .techbase{
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     .lang{
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 20vw;
     }
+}
+.css-r6z5ec{
+    min-width: none;
 }

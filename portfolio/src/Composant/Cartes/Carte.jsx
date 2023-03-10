@@ -26,6 +26,9 @@ function Carte(props) {
           <div className="description">
             <ul>
               <li>
+                {project.tech}
+              </li>
+              <li>
                 <a href={project.lienGit}>
                   {project.gitTexte}
                 </a>

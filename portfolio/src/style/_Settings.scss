@@ -11,19 +11,17 @@ $color5:#6fffe9;
     margin: 0;
     padding: 0;
 }
-li{
-    list-style: none;
-}
-a{
-    text-decoration: none;
-    color: #5bc0be;
-    font-weight: 700;
-}
-
 
 html,body{
     background-color: $color3;
     color: white;
+a{
+    font-weight: 700;
+    color: $color5;
+}
+li{
+    list-style: none;
+}
     #root{
         background-color: $color3;
         color: white;

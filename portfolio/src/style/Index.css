@@ -3,19 +3,16 @@
   padding: 0;
 }
 
-li {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-  color: #5bc0be;
-  font-weight: 700;
-}
-
 html, body {
   background-color: #3a506b;
   color: white;
+}
+html a, body a {
+  font-weight: 700;
+  color: #6fffe9;
+}
+html li, body li {
+  list-style: none;
 }
 html #root, body #root {
   background-color: #3a506b;
@@ -26,19 +23,25 @@ html #root, body #root {
 html .bartab, body .bartab {
   display: none;
 }
+@media screen and (max-with: 1024px) {
+  html, body {
+    background-color: yellow;
+  }
+}
 
 .project h2 {
   font-family: "Tilt Neon", cursive;
-  font-size: 1.5rem;
+  font-size: 2em;
+  margin-bottom: 5%;
 }
 
 #Technologie h2 {
-  font-size: 1.5rem;
+  font-size: 1.75em;
   margin-bottom: 5%;
   font-family: "Tilt Neon", cursive;
 }
 #Technologie h4 {
-  font-size: 1.25rem;
+  font-size: 1.5em;
   margin-bottom: 5%;
   font-family: "Tilt Neon", cursive;
 }
@@ -57,10 +60,10 @@ html .bartab, body .bartab {
   color: white;
 }
 .header h1 {
-  font-size: 3rem;
+  font-size: 3em;
 }
 .header p {
-  font-size: 1rem;
+  font-size: 1.25em;
   color: grey;
   margin: 1%;
 }
@@ -86,12 +89,12 @@ html .bartab, body .bartab {
 }
 
 #Technologie h2 {
-  font-size: 1.5rem;
+  font-size: 1.75em;
   margin-bottom: 5%;
   font-family: "Tilt Neon", cursive;
 }
 #Technologie h4 {
-  font-size: 1.25rem;
+  font-size: 1.5em;
   margin-bottom: 5%;
   font-family: "Tilt Neon", cursive;
 }
@@ -109,7 +112,7 @@ html .bartab, body .bartab {
 .all_cards .one_card {
   margin: 3vw;
   height: 50%;
-  width: 75%;
+  width: 80%;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -120,9 +123,7 @@ html .bartab, body .bartab {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50vh;
   width: 100%;
-  background-color: red;
 }
 .all_cards .one_card .image img {
   border-radius: 8px;
@@ -132,19 +133,35 @@ html .bartab, body .bartab {
 }
 .all_cards .one_card h3 {
   font-family: "Tilt Neon", cursive;
-  font-size: 1.25rem;
+  font-size: 1.5em;
   margin-bottom: 5%;
+}
+.all_cards .one_card .description ul {
+  text-align: left;
+}
+.all_cards .one_card .description ul :nth-child(1) {
+  list-style: none;
 }
 .all_cards .one_card .description ul li {
   text-align: center;
   margin: 2vw;
   list-style: inside;
+  font-size: 1.25em;
+}
+
+.css-r6z5ec {
+  min-width: auto;
+  background-color: yellow;
+}
+
+.css-1kfu8nn {
+  display: none;
 }
 
 .title {
   display: flex;
   align-items: center;
-  font-size: 1.25rem;
+  font-size: 1.5em;
 }
 .title img {
   width: 10vw;
@@ -161,17 +178,23 @@ html .bartab, body .bartab {
 }
 .ulProjects li {
   list-style: inside;
+  font-size: 1.25em;
 }
 
 .techbase {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 .techbase .lang {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 20vw;
+}
+
+.css-r6z5ec {
+  min-width: none;
 }
 
 .info {

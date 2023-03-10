@@ -14,6 +14,7 @@ function Technologie(){
               {img: '/images/css-3.png', title: 'CSS'},
               {img: '/images/sass.png', title: 'SASS'},
               {img: '/images/js.png', title: 'JavaScript'},
+              {img: 'images/github.png', title: 'Git'},
           ]}  />
          <hr />
           <h2>
