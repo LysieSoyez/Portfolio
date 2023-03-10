@@ -9,11 +9,42 @@ li {
 
 a {
   text-decoration: none;
+  color: #5bc0be;
+  font-weight: 700;
+}
+
+html, body {
+  background-color: #3a506b;
+  color: white;
+}
+html #root, body #root {
+  background-color: #3a506b;
+  color: white;
 }
 
 /*Pages*/
 html .bartab, body .bartab {
   display: none;
+}
+
+.project h2 {
+  font-family: "Tilt Neon", cursive;
+  font-size: 1.5rem;
+}
+
+#Technologie h2 {
+  font-size: 1.5rem;
+  margin-bottom: 5%;
+  font-family: "Tilt Neon", cursive;
+}
+#Technologie h4 {
+  font-size: 1.25rem;
+  margin-bottom: 5%;
+  font-family: "Tilt Neon", cursive;
+}
+#Technologie hr {
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 /*Composant*/
@@ -22,21 +53,27 @@ html .bartab, body .bartab {
   flex-direction: column;
   text-align: center;
   font-family: "Tilt Neon", cursive;
+  background-color: #3a506b;
+  color: white;
 }
 .header h1 {
   font-size: 3rem;
 }
 .header p {
-  font-size: 0.5rem;
+  font-size: 1rem;
   color: grey;
+  margin: 1%;
 }
 .header img {
   margin: auto;
-  width: 25vw;
+  width: 45vw;
   border-radius: 50%;
   border: 3px solid #5bc0be;
 }
 
+.bartabmobil {
+  background-color: #3a506b;
+}
 .bartabmobil .chakra-tabs__tablist {
   background-color: #5bc0be;
   position: fixed;
@@ -49,60 +86,81 @@ html .bartab, body .bartab {
 }
 
 #Technologie h2 {
-  font-size: 1rem;
+  font-size: 1.5rem;
+  margin-bottom: 5%;
+  font-family: "Tilt Neon", cursive;
+}
+#Technologie h4 {
+  font-size: 1.25rem;
+  margin-bottom: 5%;
+  font-family: "Tilt Neon", cursive;
+}
+#Technologie hr {
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 .all_cards {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
+  flex-direction: column;
   margin: auto;
 }
 .all_cards .one_card {
   margin: 3vw;
-  height: 40%;
-  width: 50%;
-  background-color: #1c2541;
-  overflow: hidden;
+  height: 50%;
+  width: 75%;
   display: flex;
   align-items: center;
   flex-direction: column;
-  border-radius: 10px;
-  border: 1px solid #0b132b;
+  margin: auto;
+  margin-bottom: 10%;
 }
-.all_cards .one_card #meteou {
-  width: 100%;
-  height: 20%;
-}
-.all_cards .one_card #cogip {
-  width: 100%;
-}
-.all_cards .one_card .description ul {
+.all_cards .one_card .image {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  width: 100%;
+  background-color: red;
+}
+.all_cards .one_card .image img {
+  border-radius: 8px;
+  height: -moz-max-content;
+  height: max-content;
+  width: 100%;
+}
+.all_cards .one_card h3 {
+  font-family: "Tilt Neon", cursive;
+  font-size: 1.25rem;
+  margin-bottom: 5%;
 }
 .all_cards .one_card .description ul li {
+  text-align: center;
   margin: 2vw;
-}
-.all_cards .one_card .description ul li a #git {
-  width: 4vw;
-}
-.all_cards .one_card .description ul li a #lien {
-  width: 4vw;
+  list-style: inside;
 }
 
 .title {
   display: flex;
-  align-items: baseline;
+  align-items: center;
+  font-size: 1.25rem;
 }
 .title img {
   width: 10vw;
 }
 .title h3 {
   margin-left: 2%;
+  margin-bottom: 2%;
 }
 
 .ulProjects {
   margin-left: 5%;
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+.ulProjects li {
+  list-style: inside;
 }
 
 .techbase {
@@ -114,4 +172,14 @@ html .bartab, body .bartab {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.info {
+  background-color: #3a506b;
+  color: white;
+  text-align: center;
+  margin: 5%;
+}
+.info p {
+  margin-top: 1%;
 }/*# sourceMappingURL=Index.css.map */

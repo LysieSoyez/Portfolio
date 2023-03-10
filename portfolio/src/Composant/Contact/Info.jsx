@@ -4,7 +4,7 @@ function Info(){
     return(
         <div className="info">
             <p>
-                Mon mail: <a href="mailto:Lysie.a.soyez@gmail.com">Lysie.a.soyez@gmail.com</a>
+                Mon Mail: <a href="mailto:Lysie.a.soyez@gmail.com">Lysie.a.soyez@gmail.com</a>
             </p>
             <p>
                 Mon <a href="https://www.linkedin.com/in/lysiesoyez/" target={"_blank"}>LinkedIn</a>

@@ -1,12 +1,17 @@
-import Cartes from '../Composant/Cartes/Cartes';
-import CarteV2 from '../Composant/Cartes/CarteV2';
+import Carte from '../Composant/Cartes/Carte';
 
 function Projects(){
     return(
-        <>
-        <CarteV2 />
-        <CarteV2 />
-        </>
+        <div className='project'>
+            <h2>
+                Solo Projects
+            </h2>
+            <Carte />
+            <h2>
+                Group Projects
+            </h2>
+            <Carte />
+        </div>
     )
 }
 export default Projects;

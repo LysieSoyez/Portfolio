@@ -1,3 +1,11 @@
+//colors
+$color1:#0b132b;
+$color2:#1c2541;
+$color3:#3a506b;
+$color4:#5bc0be;
+$color5:#6fffe9;
+
+
 //Reset
 *{
     margin: 0;
@@ -8,11 +16,19 @@ li{
 }
 a{
     text-decoration: none;
+    color: #5bc0be;
+    font-weight: 700;
 }
-//colors
 
-$color1:#0b132b;
-$color2:#1c2541;
-$color3:#3a506b;
-$color4:#5bc0be;
-$color5:#6fffe9;
+
+html,body{
+    background-color: $color3;
+    color: white;
+    #root{
+        background-color: $color3;
+        color: white;
+    }
+}
+
+//Fonts
+$fontTitle:'Tilt Neon', cursive;

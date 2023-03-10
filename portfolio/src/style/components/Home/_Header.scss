@@ -2,20 +2,22 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    font-family: 'Tilt Neon', cursive;
-
+    font-family: $fontTitle;
+    background-color: $color3;
+    color: white;
     h1{
         font-size: 3rem;
     }
 
     p{
-        font-size: 0.5rem ;
+        font-size: 1rem ;
         color: grey;
+        margin: 1%;
     }
 
     img{
         margin: auto;
-        width: 25vw;
+        width: 45vw;
         border-radius: 50%;
         border: 3px solid $color4;
     }

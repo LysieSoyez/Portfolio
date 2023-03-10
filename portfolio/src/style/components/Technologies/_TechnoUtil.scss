@@ -1,13 +1,20 @@
 .title{
     display: flex;
-    align-items: baseline;
+    align-items: center;
+    font-size: 1.25rem;
     img{
         width: 10vw;
     }
     h3{
         margin-left: 2%;
+        margin-bottom: 2%;
     }
 }
 .ulProjects{
     margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    li{
+        list-style: inside;
+    }
 }

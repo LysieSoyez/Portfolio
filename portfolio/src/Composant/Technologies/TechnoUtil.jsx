@@ -15,6 +15,7 @@ function TechnoUtil(props){
                     <a href={project.link}>
                         {project.name}
                     </a>
+                    {project.desc}
                 </li>
             ))}
         </ul>
@@ -26,7 +27,7 @@ export default TechnoUtil;
 
 /* Props 
 **
-** pros.image     -> Image de la techno utilisée
+** props.image     -> Image de la techno utilisée
 ** props.title    -> Titre de la techno
 **
 ** props.project  -> Props de la boucle

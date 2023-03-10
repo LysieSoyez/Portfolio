@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-function CarteV2(props) {
+function Carte(props) {
   const [data, setData] = useState([]);
 
   useEffect(() => {
@@ -12,22 +12,27 @@ function CarteV2(props) {
   return (
     <div className='all_cards'>
       {data.length ? data.map((project) => (
-        <div className="one_card" key={project.key}>
-          <img
+        <div className='one_card'key={project.key}>
+          <h3>
+            {project.titre}
+          </h3>
+          <div className="image" >
+            <img
             src={project.image}
             alt="#"
             id={project.imageId}
-          />
+            />
+          </div>
           <div className="description">
             <ul>
               <li>
                 <a href={project.lienGit}>
-                  <img src="/images/github_white.png" alt="Repos git hub" id="git" />
+                  {project.gitTexte}
                 </a>
               </li>
               <li>
                 <a href={project.lienAutre}>
-                  <img src="/images/page-web_white.png" alt="Lien externe" id="lien" />
+                  {project.autreTexte}
                 </a>
               </li>
             </ul>
@@ -38,4 +43,14 @@ function CarteV2(props) {
   );
 }
 
-export default CarteV2;
+export default Carte;
+
+/* Props dans le json
+**
+** project.titre       -> Titre du project
+** project.image       -> Apperçu de l'image
+** project.imageId     -> Id de l'image
+**
+** project.lienGit     -> Lien du répo GitHub
+** project.lienAutre   -> Lien du site
+*/

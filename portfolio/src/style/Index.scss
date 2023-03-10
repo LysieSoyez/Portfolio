@@ -6,6 +6,11 @@
 //Home
 @import '../style/pages/Home';
 
+//Projects
+@import '../style/pages/Projects';
+
+//Technologies
+@import '../style/pages/Technologie';
 
 
 /*Composant*/
@@ -21,3 +26,6 @@
 //Technologie
 @import '../style/components/Technologies/TechnoUtil';
 @import '../style/components/Technologies/TechnoBases';
+
+//Contact
+@import '../style/components/Contact/Info';

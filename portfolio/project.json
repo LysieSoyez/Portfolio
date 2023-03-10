@@ -2,11 +2,13 @@
         {
             "key": "1",
             "titre": "Weather App",
-            "image": "/images/meteou.png",
+            "image": "/images/image.png",
             "imageId": "meteou",
             "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus commodi iure eius consequatur excepturi rerum consequuntur eveniet, provident distinctio deleniti sequi adipisci,et harum rem ipsum sapiente id voluptates a.",
             "lienGit": "https://github.com/LysieSoyez/weather-app",
-            "lienAutre": "https://lysiesoyez.github.io/weather-app/"
+            "gitTexte": "Repositori GitHub",
+            "lienAutre": "https://lysiesoyez.github.io/weather-app/",
+            "autreTexte":"Link to the Website"
         },
         {
             "key":"2",
@@ -15,6 +17,8 @@
             "imageId": "cogip",
             "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus commodi iure eius consequatur excepturi rerum consequuntur eveniet, provident distinctio deleniti sequi adipisci,et harum rem ipsum sapiente id voluptates a.",
             "lienGit": "https://github.com/LysieSoyez/cogip",
-            "lienAutre": "https://cogip-3ubzgqgdi-ed0598.vercel.app/"
+            "gitTexte": "Repositori GitHub",
+            "lienAutre": "https://cogip-3ubzgqgdi-ed0598.vercel.app/",
+            "autreTexte":"Link to the Website"
         }
 ]
