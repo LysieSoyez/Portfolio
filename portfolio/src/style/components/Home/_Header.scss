@@ -1,3 +1,4 @@
+@import "../../Desktop";
 .header{
     display: flex;
     flex-direction: column;
@@ -7,12 +8,18 @@
     color: white;
     h1{
         font-size: 3em;
+        @include desktop{
+            font-size: 4em;
+        }
     }
 
     p{
         font-size: 1.25em ;
         color: grey;
         margin: 1%;
+        @include desktop{
+            font-size: 1.5em;
+        }
     }
 
     img{
@@ -20,5 +27,8 @@
         width: 45vw;
         border-radius: 50%;
         border: 3px solid $color4;
+        @include desktop{
+            width: 20vw;
+        }
     }
 }

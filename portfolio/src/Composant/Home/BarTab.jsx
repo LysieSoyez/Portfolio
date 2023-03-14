@@ -9,33 +9,33 @@ function BarTab(){
   return (
     <>
     <div className="bartab">
-    <Tabs isFitted variant='enclosed' colorScheme="blackAlpha" align="center">
-      <TabList mb='1em'>
-        <Tab>Technos</Tab>
-        <Tab>Projets</Tab>
-        <Tab>About</Tab>
-        <Tab>Contacts</Tab>
-      </TabList>
+      <Tabs isFitted variant='unstyled' colorScheme="blackAlpha" align="center">
+        <TabList mb='1em'>
+          <Tab>Technos</Tab>
+          <Tab>Projets</Tab>
+          <Tab>About</Tab>
+          <Tab>Contacts</Tab>
+        </TabList>
 
-      <TabPanels>
-        <TabPanel>
-          <Technologie />
-        </TabPanel>
+        <TabPanels>
+          <TabPanel>
+            <Technologie />
+          </TabPanel>
 
-        <TabPanel>
-          <Projects />
-        </TabPanel>
+          <TabPanel>
+            <Projects />
+          </TabPanel>
 
-        <TabPanel>
-          //A propos
-        </TabPanel>
+          <TabPanel>
+            //A propos
+          </TabPanel>
 
-        <TabPanel>
-          <Contact />
-        </TabPanel>
+          <TabPanel>
+            <Contact />
+          </TabPanel>
 
-      </TabPanels>
-    </Tabs>
+        </TabPanels>
+      </Tabs>
     </div>
     </>
   )

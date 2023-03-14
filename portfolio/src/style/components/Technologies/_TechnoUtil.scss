@@ -2,8 +2,14 @@
     display: flex;
     align-items: center;
     font-size: 1.5em;
+    @include desktop{
+        align-items: flex-start;
+    }
     img{
         width: 10vw;
+        @include desktop{
+            width: 4vw;
+        }
     }
     h3{
         margin-left: 2%;
@@ -17,5 +23,6 @@
     li{
         list-style: inside;
         font-size: 1.25em;
+        text-align: left;
     }
 }

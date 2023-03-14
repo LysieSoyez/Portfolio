@@ -18,6 +18,7 @@
 //Home
 @import '../style/components/Home/Header';
 @import '../style/components/Home/BarTabMobil';
+@import '../style/components/Home/BarTab';
 @import '../style/pages/Technologie';
 
 //Projects
@@ -29,3 +30,5 @@
 
 //Contact
 @import '../style/components/Contact/Info';
+
+@import '../style/_Desktop.scss';

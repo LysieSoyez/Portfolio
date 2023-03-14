@@ -4,13 +4,18 @@
         margin-bottom: 5%;
         font-family: $fontTitle;
     }
-    h4{
-        font-size: 1.5em;
-        margin-bottom: 5%;
-        font-family: $fontTitle;
-    }
     hr{
         margin-top: 2%;
         margin-bottom: 2%;
     }
+    @include desktop{
+        .frameBase{
+            display: flex;
+            justify-content: space-evenly;
+            hr{
+                display: none;
+            }
+        }
+    }
+    
 }
