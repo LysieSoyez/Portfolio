@@ -27,7 +27,8 @@
             align-items: center;
             width: 100%;
             @include desktop{
-                width: 40%;
+                width: 50%;
+                margin-right: 10%;
             }
             img{
                 border-radius: 8px ;
@@ -47,6 +48,9 @@
                     margin: 2vw;
                     list-style: inside;
                     font-size: 1.25em;
+                }
+                .tech{
+                    word-spacing: 2vw;
                 }
             }
         }     

@@ -26,7 +26,7 @@ function Carte(props) {
             </div>
             <div className="description">
               <ul>
-                <li>
+                <li className='tech'>
                   {project.tech}
                 </li>
                 <li>

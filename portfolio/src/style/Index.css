@@ -4,18 +4,18 @@
 }
 
 html, body {
-  background-color: #9bc1bc;
+  background-color: whrite;
   color: black;
 }
 html a, body a {
   font-weight: 700;
-  color: #ed6a5a;
+  color: blue;
 }
 html li, body li {
   list-style: none;
 }
 html #root, body #root {
-  background-color: #9bc1bc;
+  background-color: whrite;
   color: black;
 }
 
@@ -38,6 +38,7 @@ html .bartab, body .bartab {
   font-family: "Tilt Neon", cursive;
   font-size: 2em;
   margin-bottom: 5%;
+  text-decoration: underline;
 }
 
 #Technologie h2 {
@@ -65,7 +66,7 @@ html .bartab, body .bartab {
   flex-direction: column;
   text-align: center;
   font-family: "Tilt Neon", cursive;
-  background-color: #9bc1bc;
+  background-color: whrite;
   color: black;
 }
 .header h1 {
@@ -99,10 +100,10 @@ html .bartab, body .bartab {
 }
 
 .bartabmobil {
-  background-color: #9bc1bc;
+  background-color: whrite;
 }
 .bartabmobil .chakra-tabs__tablist {
-  background-color: #5bc0be;
+  background-color: blue;
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -177,7 +178,8 @@ html .bartab, body .bartab {
 }
 @media screen and (min-width: 1024px) {
   .all_cards .one_card .image {
-    width: 40%;
+    width: 50%;
+    margin-right: 10%;
   }
 }
 .all_cards .one_card .image img {
@@ -197,6 +199,9 @@ html .bartab, body .bartab {
   margin: 2vw;
   list-style: inside;
   font-size: 1.25em;
+}
+.all_cards .one_card .description ul .tech {
+  word-spacing: 2vw;
 }
 
 .css-r6z5ec {
@@ -269,8 +274,15 @@ html .bartab, body .bartab {
   min-width: none;
 }
 
+.cvPdf {
+  text-align: center;
+}
+.cvPdf a {
+  font-size: 1.25rem;
+}
+
 .info {
-  background-color: #9bc1bc;
+  background-color: whrite;
   color: black;
   text-align: center;
   margin: 5%;

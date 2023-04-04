@@ -3,6 +3,7 @@ import * as React from 'react';
 import { Tabs, TabList, TabPanels, Tab, TabPanel } from '@chakra-ui/react';
 import Technologie from "../../Pages/Technologie";
 import Contact from "../../Pages/Contact";
+import About from "../../Pages/About";
 
 
 function BarTabMobil(){
@@ -22,7 +23,7 @@ function BarTabMobil(){
         </TabPanel>
 
         <TabPanel>
-          //A propos
+          <About />
         </TabPanel>
 
         <TabPanel>

@@ -3,7 +3,7 @@ import * as React from 'react';
 import { Tabs, TabList, TabPanels, Tab, TabPanel } from '@chakra-ui/react';
 import Technologie from "../../Pages/Technologie";
 import Contact from "../../Pages/Contact";
-
+import About from "../../Pages/About";
 
 function BarTab(){
   return (
@@ -27,7 +27,7 @@ function BarTab(){
           </TabPanel>
 
           <TabPanel>
-            //A propos
+            <About />
           </TabPanel>
 
           <TabPanel>
