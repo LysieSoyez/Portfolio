@@ -148,6 +148,12 @@ html .bartab, body .bartab {
   flex-direction: column;
   margin: auto;
 }
+.all_cards h3 {
+  font-family: "Tilt Neon", cursive;
+  font-size: 1.5em;
+  margin-bottom: 5%;
+  text-align: center;
+}
 .all_cards .one_card {
   margin: 3vw;
   height: 50%;
@@ -157,6 +163,11 @@ html .bartab, body .bartab {
   flex-direction: column;
   margin: auto;
   margin-bottom: 10%;
+}
+@media screen and (min-width: 1024px) {
+  .all_cards .one_card {
+    flex-direction: row;
+  }
 }
 .all_cards .one_card .image {
   display: flex;
@@ -174,11 +185,6 @@ html .bartab, body .bartab {
   height: -moz-max-content;
   height: max-content;
   width: 100%;
-}
-.all_cards .one_card h3 {
-  font-family: "Tilt Neon", cursive;
-  font-size: 1.5em;
-  margin-bottom: 5%;
 }
 .all_cards .one_card .description ul {
   text-align: left;

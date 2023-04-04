@@ -12,35 +12,37 @@ function Carte(props) {
   return (
     <div className='all_cards'>
       {data.length ? data.map((project) => (
-        <div className='one_card'key={project.key}>
+        <>
           <h3>
             {project.titre}
           </h3>
-          <div className="image" >
-            <img
-            src={project.image}
-            alt="#"
-            id={project.imageId}
-            />
+          <div className='one_card'key={project.key}>
+            <div className="image" >
+              <img
+              src={project.image}
+              alt="#"
+              id={project.imageId}
+              />
+            </div>
+            <div className="description">
+              <ul>
+                <li>
+                  {project.tech}
+                </li>
+                <li>
+                  <a href={project.lienGit}>
+                    {project.gitTexte}
+                  </a>
+                </li>
+                <li>
+                  <a href={project.lienAutre}>
+                    {project.autreTexte}
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
-          <div className="description">
-            <ul>
-              <li>
-                {project.tech}
-              </li>
-              <li>
-                <a href={project.lienGit}>
-                  {project.gitTexte}
-                </a>
-              </li>
-              <li>
-                <a href={project.lienAutre}>
-                  {project.autreTexte}
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
+        </>
       )) : null}
     </div>
   );
