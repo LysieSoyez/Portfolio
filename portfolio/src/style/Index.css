@@ -4,19 +4,19 @@
 }
 
 html, body {
-  background-color: #3a506b;
-  color: white;
+  background-color: #9bc1bc;
+  color: black;
 }
 html a, body a {
   font-weight: 700;
-  color: #6fffe9;
+  color: #ed6a5a;
 }
 html li, body li {
   list-style: none;
 }
 html #root, body #root {
-  background-color: #3a506b;
-  color: white;
+  background-color: #9bc1bc;
+  color: black;
 }
 
 /*Pages*/
@@ -65,15 +65,15 @@ html .bartab, body .bartab {
   flex-direction: column;
   text-align: center;
   font-family: "Tilt Neon", cursive;
-  background-color: #3a506b;
-  color: white;
+  background-color: #9bc1bc;
+  color: black;
 }
 .header h1 {
-  font-size: 3em;
+  font-size: 3rem;
 }
 @media screen and (min-width: 1024px) {
   .header h1 {
-    font-size: 4em;
+    font-size: 2.5em;
   }
 }
 .header p {
@@ -88,18 +88,18 @@ html .bartab, body .bartab {
 }
 .header img {
   margin: auto;
-  width: 45vw;
+  width: 40vw;
   border-radius: 50%;
   border: 3px solid #5bc0be;
 }
 @media screen and (min-width: 1024px) {
   .header img {
-    width: 20vw;
+    width: 15vw;
   }
 }
 
 .bartabmobil {
-  background-color: #3a506b;
+  background-color: #9bc1bc;
 }
 .bartabmobil .chakra-tabs__tablist {
   background-color: #5bc0be;
@@ -112,6 +112,10 @@ html .bartab, body .bartab {
   width: 8vw;
 }
 
+.bartab button {
+  font-family: "Tilt Neon", cursive;
+  font-size: 1.5em;
+}
 .bartab .css-1wf5nuj {
   background-color: #5bc0be;
 }
@@ -159,6 +163,11 @@ html .bartab, body .bartab {
   justify-content: center;
   align-items: center;
   width: 100%;
+}
+@media screen and (min-width: 1024px) {
+  .all_cards .one_card .image {
+    width: 40%;
+  }
 }
 .all_cards .one_card .image img {
   border-radius: 8px;
@@ -255,11 +264,16 @@ html .bartab, body .bartab {
 }
 
 .info {
-  background-color: #3a506b;
-  color: white;
+  background-color: #9bc1bc;
+  color: black;
   text-align: center;
   margin: 5%;
 }
 .info p {
   margin-top: 1%;
+}
+@media screen and (min-width: 1024px) {
+  .info p {
+    font-size: 1.5em;
+  }
 }/*# sourceMappingURL=Index.css.map */

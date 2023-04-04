@@ -24,8 +24,8 @@ function Technologie(){
               </h2>
               <TechnoUtil image="/images/React.png" title="React" 
               projects={[
-                {name: 'Cogip ', desc:"(Website)", link: 'http://project1.com'},
-                {name: 'Portfolio ', desc:"(GitHub)", link: 'http://project2.com'},
+                {name: 'Cogip ', desc:"(Website)", link: 'https://cogip-3ubzgqgdi-ed0598.vercel.app/'},
+                {name: 'Portfolio ', desc:"(GitHub)", link: 'https://github.com/LysieSoyez/Portfolio'},
               ]}  />
               <hr />
             </div>
@@ -35,7 +35,7 @@ function Technologie(){
               </h2>
               <TechnoUtil image="/images/php.png" title="PHP/SQL" 
               projects={[
-                {name: 'Hackers Poulette ', desc:"(GitHub)", link: 'http://project1.com'},
+                {name: 'Hackers Poulette ', desc:"(GitHub)", link: 'https://github.com/LysieSoyez/hackers-poulette'},
               ]}  />
             </div>
           </div>

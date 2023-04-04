@@ -9,7 +9,7 @@ function BarTab(){
   return (
     <>
     <div className="bartab">
-      <Tabs isFitted variant='unstyled' colorScheme="blackAlpha" align="center">
+      <Tabs isFitted  colorScheme="pink" align="center">
         <TabList mb='1em'>
           <Tab>Technos</Tab>
           <Tab>Projets</Tab>

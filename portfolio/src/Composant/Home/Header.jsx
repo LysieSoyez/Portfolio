@@ -9,7 +9,7 @@ function Header(){
             </h1>
             <img src="/images/Profil.jpg" alt="Photo de profil" />
             <p>
-                Developer Web Front-end (Junior). 
+                Junior Front-End Developer. 
             </p>
         </div>
         </>

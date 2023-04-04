@@ -1,9 +1,10 @@
 //colors
 $color1:#0b132b;
 $color2:#1c2541;
-$color3:#3a506b;
+$color3:#9bc1bc; //#dce0d9; //#ead7c3; //#3a506b;
 $color4:#5bc0be;
-$color5:#6fffe9;
+$color5:#ed6a5a; //#6fffe9;
+$fontcolor: black;
 
 
 //Reset
@@ -14,7 +15,7 @@ $color5:#6fffe9;
 
 html,body{
     background-color: $color3;
-    color: white;
+    color: $fontcolor;
 a{
     font-weight: 700;
     color: $color5;
@@ -24,7 +25,7 @@ li{
 }
     #root{
         background-color: $color3;
-        color: white;
+        color: $fontcolor;
     }
 }
 

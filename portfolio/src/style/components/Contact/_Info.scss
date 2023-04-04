@@ -1,14 +1,15 @@
 
 .info{
     background-color: $color3;
-    color: white;
+    color: $fontcolor;
     text-align: center;
     margin: 5%;
-    // a{
-    //     color: $color5;
-    //     font-weight: 700;
-    // }
     p{
         margin-top: 1%;
+    }
+    @include desktop{
+        p{
+            font-size: 1.5em;
+        }
     }
 }
