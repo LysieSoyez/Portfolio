@@ -6,6 +6,10 @@
 html, body {
   background-color: white;
   color: black;
+  min-height: 100vh;
+}
+html #root, body #root {
+  min-height: 100vh;
 }
 html a, body a {
   font-weight: 700;

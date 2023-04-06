@@ -16,13 +16,17 @@ $fontcolor: black;
 html,body{
     background-color: $color3;
     color: $fontcolor;
-a{
-    font-weight: 700;
-    color: $color5;
-}
-li{
-    list-style: none;
-}
+    min-height: 100vh;
+    #root{
+        min-height: 100vh;
+    }
+    a{
+        font-weight: 700;
+        color: $color5;
+    }
+    li{
+        list-style: none;
+    }
     .light{
         background-color: $color3;
         color: $fontcolor;

@@ -1,4 +1,5 @@
-import Carte from '../Composant/Cartes/Carte';
+import CarteGroup from '../Composant/Cartes/CarteGroup';
+import CarteSolo from '../Composant/Cartes/CarteSolo';
 
 function Projects(){
     return(
@@ -6,11 +7,11 @@ function Projects(){
             <h2>
                 Solo Projects :
             </h2>
-            <Carte />
+            <CarteSolo />
             <h2>
                 Group Projects :
             </h2>
-            <Carte />
+            <CarteGroup />
         </div>
     )
 }

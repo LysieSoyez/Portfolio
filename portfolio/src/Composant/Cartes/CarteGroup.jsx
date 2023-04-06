@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 
-function Carte(props) {
+function CarteGroup(props) {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    fetch('/project.json')
+    fetch('json/projectGroup.json')
       .then((response) => response.json())
       .then((json) => setData(json));
   }, []);
@@ -29,16 +29,20 @@ function Carte(props) {
                 <li className='tech'>
                   {project.tech}
                 </li>
-                <li>
-                  <a href={project.lienGit}>
-                    {project.gitTexte}
-                  </a>
-                </li>
-                <li>
-                  <a href={project.lienAutre}>
-                    {project.autreTexte}
-                  </a>
-                </li>
+                {project.lienGit && (
+                  <li>
+                    <a href={project.lienGit} target="_blank">
+                      {project.gitTexte}
+                    </a>
+                  </li>
+                )}
+                {project.lienAutre && (
+                  <li>
+                    <a href={project.lienAutre} target="_blank">
+                      {project.autreTexte}
+                    </a>
+                  </li>
+                )}
               </ul>
             </div>
           </div>
@@ -48,7 +52,7 @@ function Carte(props) {
   );
 }
 
-export default Carte;
+export default CarteGroup;
 
 /* Props dans le json
 **

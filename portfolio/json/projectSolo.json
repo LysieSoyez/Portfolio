@@ -1,0 +1,14 @@
+[
+        {
+            "key": "1",
+            "titre": "Weather App",
+            "image": "/images/image.png",
+            "imageId": "meteou",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus commodi iure eius consequatur excepturi rerum consequuntur eveniet, provident distinctio deleniti sequi adipisci,et harum rem ipsum sapiente id voluptates a.",
+            "lienGit": "https://github.com/LysieSoyez/weather-app",
+            "gitTexte": "Repository GitHub",
+            "lienAutre": "https://lysiesoyez.github.io/weather-app/",
+            "autreTexte":"Link to the Website",
+            "tech": "SASS - JavaScript - API"
+        }      
+]
