@@ -30,6 +30,9 @@ html,body{
     .light{
         background-color: $color3;
         color: $fontcolor;
+        .SecretMode{
+            color: white;
+        }
     }
 }
 

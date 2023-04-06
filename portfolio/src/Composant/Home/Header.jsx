@@ -1,4 +1,5 @@
 import DarkMode from "../Mode/DarkMode";
+import WtfMode from "../Mode/WtfMode";
 
 
 
@@ -6,7 +7,10 @@ function Header(){
     return(
         <>
         <div className="header">
-            <DarkMode />
+            <div className="ModeButton">
+                <DarkMode />
+                <WtfMode />
+            </div>
             <h1>
                 Lysie Soyez
             </h1>

@@ -7,6 +7,11 @@
     background-color: $color3;
     color: $fontcolor;
     margin-bottom: 5%;
+    .ModeButton{
+        display: flex;
+        justify-content: space-between;
+        margin: 2%;
+    }
     h1{
         font-size: 3rem;
         @include desktop{

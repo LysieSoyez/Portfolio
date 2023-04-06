@@ -22,6 +22,9 @@ html .light, body .light {
   background-color: white;
   color: black;
 }
+html .light .SecretMode, body .light .SecretMode {
+  color: white;
+}
 
 /*Pages*/
 html .bartab, body .bartab {
@@ -73,6 +76,11 @@ html .bartab, body .bartab {
   background-color: white;
   color: black;
   margin-bottom: 5%;
+}
+.header .ModeButton {
+  display: flex;
+  justify-content: space-between;
+  margin: 2%;
 }
 .header h1 {
   font-size: 3rem;
@@ -317,10 +325,11 @@ html .bartab, body .bartab {
   background-color: black;
   color: white;
 }
+.dark .SecretMode {
+  color: black;
+}
 
 .switchMode {
   text-align: right;
-  margin: 4%;
   margin-bottom: 0;
-  font-size: 1.25rem;
 }/*# sourceMappingURL=Index.css.map */
