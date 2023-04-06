@@ -29,6 +29,9 @@
             @include desktop{
                 width: 50%;
                 margin-right: 10%;
+                #azstore{
+                    width: 25vw;
+                }
             }
             img{
                 border-radius: 8px ;

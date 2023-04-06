@@ -186,6 +186,9 @@ html .bartab, body .bartab {
     width: 50%;
     margin-right: 10%;
   }
+  .all_cards .one_card .image #azstore {
+    width: 25vw;
+  }
 }
 .all_cards .one_card .image img {
   border-radius: 8px;
@@ -281,6 +284,7 @@ html .bartab, body .bartab {
 
 .cvPdf {
   text-align: center;
+  margin: 5%;
 }
 .cvPdf a {
   font-size: 1.25rem;
