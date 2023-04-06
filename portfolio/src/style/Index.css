@@ -4,7 +4,7 @@
 }
 
 html, body {
-  background-color: whrite;
+  background-color: white;
   color: black;
 }
 html a, body a {
@@ -14,8 +14,8 @@ html a, body a {
 html li, body li {
   list-style: none;
 }
-html #root, body #root {
-  background-color: whrite;
+html .light, body .light {
+  background-color: white;
   color: black;
 }
 
@@ -66,8 +66,9 @@ html .bartab, body .bartab {
   flex-direction: column;
   text-align: center;
   font-family: "Tilt Neon", cursive;
-  background-color: whrite;
+  background-color: white;
   color: black;
+  margin-bottom: 5%;
 }
 .header h1 {
   font-size: 3rem;
@@ -100,7 +101,7 @@ html .bartab, body .bartab {
 }
 
 .bartabmobil {
-  background-color: whrite;
+  background-color: white;
 }
 .bartabmobil .chakra-tabs__tablist {
   background-color: blue;
@@ -282,7 +283,7 @@ html .bartab, body .bartab {
 }
 
 .info {
-  background-color: whrite;
+  background-color: white;
   color: black;
   text-align: center;
   margin: 5%;
@@ -294,4 +295,24 @@ html .bartab, body .bartab {
   .info p {
     font-size: 1.5em;
   }
+}
+
+.dark {
+  background-color: black;
+  color: white;
+}
+.dark .header {
+  background-color: black;
+  color: white;
+}
+.dark .bartabmobil, .dark .info {
+  background-color: black;
+  color: white;
+}
+
+.switchMode {
+  text-align: right;
+  margin: 4%;
+  margin-bottom: 0;
+  font-size: 1.25rem;
 }/*# sourceMappingURL=Index.css.map */

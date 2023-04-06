@@ -1,9 +1,12 @@
+import DarkMode from "../Mode/DarkMode";
+
 
 
 function Header(){
     return(
         <>
         <div className="header">
+            <DarkMode />
             <h1>
                 Lysie Soyez
             </h1>
