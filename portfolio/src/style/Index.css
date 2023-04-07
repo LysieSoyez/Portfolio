@@ -22,7 +22,7 @@ html .light, body .light {
   background-color: white;
   color: black;
 }
-html .light .SecretMode, body .light .SecretMode {
+html .light #SecretMode, body .light #SecretMode {
   color: white;
 }
 
@@ -325,11 +325,24 @@ html .bartab, body .bartab {
   background-color: black;
   color: white;
 }
-.dark .SecretMode {
+.dark #SecretMode {
   color: black;
 }
 
-.switchMode {
+#switchMode {
   text-align: right;
   margin-bottom: 0;
+}
+
+.wtf .header {
+  background-color: white;
+}
+.wtf .bartab {
+  background-color: grey;
+  min-height: 100%;
+}
+.wtf .bartab p, .wtf .bartab h2, .wtf .bartab ul {
+  transform: rotate(180deg);
+  margin: 0;
+  padding: 0;
 }/*# sourceMappingURL=Index.css.map */

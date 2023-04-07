@@ -12,17 +12,19 @@ function DarkMode() {
     const root = document.getElementById("root");
     if (isDarkMode) {
       root.classList.remove("dark");
+      root.classList.remove('wtf');
       root.classList.add('light');
 
     } else {
       root.classList.add("dark");
       root.classList.remove("light");
+      root.classList.remove('wtf');
     }
   }
 
   return (
     <>
-      <button onClick={handleToggle} className="switchMode">
+      <button onClick={handleToggle} id="switchMode">
         {isDarkMode ? "Mode clair" : "Mode sombre"}
       </button>
     </>

@@ -1,0 +1,14 @@
+.wtf{
+    .header{
+        background-color: white;
+    }
+    .bartab{
+        background-color: grey;
+        min-height: 100%;
+        p, h2, ul{
+            transform: rotate(180deg);
+            margin: 0;
+            padding: 0;
+        }
+    }
+}
