@@ -48,6 +48,11 @@ html .bartab, body .bartab {
   text-decoration: underline;
 }
 
+.about {
+  font-family: "Tilt Neon", cursive;
+  margin-bottom: 3rem;
+}
+
 #Technologie h2 {
   font-size: 1.75em;
   margin-bottom: 5%;
@@ -303,14 +308,61 @@ html .bartab, body .bartab {
   text-align: center;
   margin: 5%;
 }
+.cvPdf img {
+  width: 70vw;
+  margin: auto;
+}
+@media screen and (min-width: 1024px) {
+  .cvPdf img {
+    width: 30vw;
+  }
+}
 .cvPdf a {
   font-size: 1.5rem;
+}
+
+.allCertifs {
+  margin: auto;
+  text-align: center;
+  width: 80%;
+}
+.allCertifs .oneCertif {
+  width: 100%;
+}
+@media screen and (min-width: 1024px) {
+  .allCertifs .oneCertif {
+    margin-top: 10%;
+  }
+}
+.allCertifs .oneCertif h2 {
+  font-size: 1.2rem;
+  margin: 2rem;
+}
+.allCertifs .oneCertif #digitalGarage {
+  margin: auto;
+  width: 55vw;
+}
+.allCertifs .oneCertif #Coursera1 {
+  margin: auto;
+  width: 55vw;
+}
+@media screen and (min-width: 1024px) {
+  .allCertifs .oneCertif h2 {
+    font-size: 1.75rem;
+  }
+  .allCertifs .oneCertif #digitalGarage {
+    width: 40vw;
+  }
+  .allCertifs .oneCertif #Coursera1 {
+    width: 40vw;
+  }
 }
 
 .info {
   background-color: white;
   color: black;
   text-align: center;
+  font-family: "Tilt Neon", cursive;
   margin: 5%;
 }
 .info p {

@@ -1,8 +1,14 @@
 [
     {
-        "key":"",
+        "key":"1",
         "name":"Google digital garage",
-        "image":"/images/digitalgarage_certificate.pdf",
+        "image":"/images/certifs/digitalgarage_certificate.jpg",
         "imageId":"digitalGarage"
+    },
+    {
+        "key":"2",
+        "name":"Foundations of User Experience (UX) Design",
+        "image":"/images/certifs/Coursera_C1.jpg",
+        "imageId":"Coursera1"
     }
 ]

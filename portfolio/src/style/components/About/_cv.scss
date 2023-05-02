@@ -1,6 +1,15 @@
 .cvPdf{
     text-align: center;
     margin: 5%;
+    img{
+        width: 70vw;
+        margin: auto;
+    }
+    @include desktop{
+        img{
+            width: 30vw;
+        }
+    }
     a{
         font-size: 1.5rem;
     }
