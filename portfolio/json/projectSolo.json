@@ -10,5 +10,15 @@
             "lienAutre": "https://lysiesoyez.github.io/weather-app/",
             "autreTexte":"Link to the Website",
             "tech": "SASS - JavaScript - API"
+        },      
+        {
+            "key": "2",
+            "titre": "Bot Discord",
+            "image": "/images/discordBot.png",
+            "imageId": "discordBot",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus commodi iure eius consequatur excepturi rerum consequuntur eveniet, provident distinctio deleniti sequi adipisci,et harum rem ipsum sapiente id voluptates a.",
+            "lienGit": "https://github.com/LysieSoyez/weather-app",
+            "gitTexte": "Repository GitHub",
+            "tech": "JavaScript - Discord.js"
         }      
 ]

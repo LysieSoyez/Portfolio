@@ -26,11 +26,17 @@
             justify-content: center;
             align-items: center;
             width: 100%;
+            #discordBot{
+                width: 50vw;
+            }
             @include desktop{
                 width: 50%;
                 margin-right: 10%;
                 #azstore{
                     width: 25vw;
+                }
+                #discordBot{
+                    width: 20vw;
                 }
             }
             img{

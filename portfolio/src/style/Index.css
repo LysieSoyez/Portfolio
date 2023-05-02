@@ -104,7 +104,7 @@ html .bartab, body .bartab {
   margin: auto;
   width: 40vw;
   border-radius: 50%;
-  border: 3px solid #5bc0be;
+  border: 3px solid dark;
 }
 @media screen and (min-width: 1024px) {
   .header img {
@@ -116,7 +116,7 @@ html .bartab, body .bartab {
   background-color: white;
 }
 .bartabmobil .chakra-tabs__tablist {
-  background-color: blue;
+  background-color: black;
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -129,9 +129,6 @@ html .bartab, body .bartab {
 .bartab button {
   font-family: "Tilt Neon", cursive;
   font-size: 1.5em;
-}
-.bartab .css-1wf5nuj {
-  background-color: #5bc0be;
 }
 .bartab .css-1wf5nuj button {
   font-size: 1.25em;
@@ -189,6 +186,9 @@ html .bartab, body .bartab {
   align-items: center;
   width: 100%;
 }
+.all_cards .one_card .image #discordBot {
+  width: 50vw;
+}
 @media screen and (min-width: 1024px) {
   .all_cards .one_card .image {
     width: 50%;
@@ -196,6 +196,9 @@ html .bartab, body .bartab {
   }
   .all_cards .one_card .image #azstore {
     width: 25vw;
+  }
+  .all_cards .one_card .image #discordBot {
+    width: 20vw;
   }
 }
 .all_cards .one_card .image img {
@@ -334,14 +337,26 @@ html .bartab, body .bartab {
   margin-bottom: 0;
 }
 
+.wtf {
+  color: purple;
+  background-color: lightgreen;
+}
 .wtf .header {
-  background-color: white;
+  background-color: lightgreen;
+}
+.wtf .info {
+  background-color: lightgreen;
+}
+.wtf .cvPdf a {
+  transform: rotate(180deg);
+  margin: 0;
+  padding: 0;
 }
 .wtf .bartab {
-  background-color: grey;
+  background-color: lightgreen;
   min-height: 100%;
 }
-.wtf .bartab p, .wtf .bartab h2, .wtf .bartab ul {
+.wtf .bartab p, .wtf .bartab h3, .wtf .bartab h2, .wtf .bartab ul {
   transform: rotate(180deg);
   margin: 0;
   padding: 0;

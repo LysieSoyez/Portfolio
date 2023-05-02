@@ -1,11 +1,23 @@
 .wtf{
+    color: purple;
+    background-color: lightgreen;
     .header{
-        background-color: white;
+        background-color: lightgreen;
+    }
+    .info{
+        background-color: lightgreen;
+    }
+    .cvPdf{
+        a{
+            transform: rotate(180deg);
+            margin: 0;
+            padding: 0;
+        }
     }
     .bartab{
-        background-color: grey;
+        background-color: lightgreen;
         min-height: 100%;
-        p, h2, ul{
+        p, h3, h2, ul{
             transform: rotate(180deg);
             margin: 0;
             padding: 0;

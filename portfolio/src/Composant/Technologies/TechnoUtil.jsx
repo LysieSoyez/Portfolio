@@ -12,7 +12,7 @@ function TechnoUtil(props){
         <ul className="ulProjects">
             {props.projects.map((project, index) => (
                 <li key={index}>
-                    <a href={project.link}>
+                    <a href={project.link} target="_blank">
                         {project.name}
                     </a>
                     {project.desc}

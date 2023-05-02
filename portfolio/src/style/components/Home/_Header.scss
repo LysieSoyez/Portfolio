@@ -4,8 +4,8 @@
     flex-direction: column;
     text-align: center;
     font-family: $fontTitle;
-    background-color: $color3;
-    color: $fontcolor;
+    background-color: $light;
+    color: $dark;
     margin-bottom: 5%;
     .ModeButton{
         display: flex;
@@ -32,7 +32,7 @@
         margin: auto;
         width: 40vw;
         border-radius: 50%;
-        border: 3px solid $color4;
+        border: 3px solid dark;
         @include desktop{
             width: 15vw;
         }

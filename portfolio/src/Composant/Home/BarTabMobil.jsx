@@ -10,7 +10,7 @@ function BarTabMobil(){
   return (
     <>
     <div className="bartabmobil">
-    <Tabs isFitted variant='unstyled' colorScheme="red">
+    <Tabs isFitted variant='unstyled' colorScheme="black">
 
 
       <TabPanels>

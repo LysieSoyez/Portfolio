@@ -1,16 +1,16 @@
 .dark{
-    background-color: black;
-    color: white;
+    background-color: $dark;
+    color: $light;
     .header{
-        background-color: black;
-        color: white;
+        background-color: $dark;
+        color: $light;
     }
     .bartabmobil, .info{
-        background-color: black;
-        color: white;
+        background-color: $dark;
+        color: $light;
     }
     #SecretMode{
-        color: black;
+        color: $dark;
     }
 }
 #switchMode{
