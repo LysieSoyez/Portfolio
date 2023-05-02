@@ -189,6 +189,9 @@ html .bartab, body .bartab {
 .all_cards .one_card .image #discordBot {
   width: 50vw;
 }
+.all_cards .one_card .image #meteou {
+  width: 50vw;
+}
 @media screen and (min-width: 1024px) {
   .all_cards .one_card .image {
     width: 50%;
@@ -198,6 +201,9 @@ html .bartab, body .bartab {
     width: 25vw;
   }
   .all_cards .one_card .image #discordBot {
+    width: 20vw;
+  }
+  .all_cards .one_card .image #meteou {
     width: 20vw;
   }
 }
@@ -298,7 +304,7 @@ html .bartab, body .bartab {
   margin: 5%;
 }
 .cvPdf a {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
 }
 
 .info {

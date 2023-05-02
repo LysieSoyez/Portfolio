@@ -32,10 +32,10 @@ function BarTabMobil(){
 
       </TabPanels>
       <TabList mb='1em'>
-        <Tab><img src="/images/la-technologie.png" alt="Techno" /></Tab>
-        <Tab><img src="/images/project-management.png" alt="Projects" /></Tab>
-        <Tab><img src="/images/information-button.png" alt="About" /></Tab>
-        <Tab><img src="/images/letter.png" alt="Contacts" /></Tab>
+        <Tab><img src="/images/icons/la-technologie.png" alt="Techno" /></Tab>
+        <Tab><img src="/images/icons/project-management.png" alt="Projects" /></Tab>
+        <Tab><img src="/images/icons/information-button.png" alt="About" /></Tab>
+        <Tab><img src="/images/icons/letter.png" alt="Contacts" /></Tab>
       </TabList>
     </Tabs>
     </div>

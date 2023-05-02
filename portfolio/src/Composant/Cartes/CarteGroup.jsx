@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-function CarteGroup(props) {
+function CarteGroup() {
   const [data, setData] = useState([]);
 
   useEffect(() => {

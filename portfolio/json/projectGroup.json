@@ -2,9 +2,8 @@
     {
         "key":"1",
         "titre": "Cogip",
-        "image": "/images/cogipHome.png",
+        "image": "/images/projets/cogipHome.png",
         "imageId": "cogip",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus commodi iure eius consequatur excepturi rerum consequuntur eveniet, provident distinctio deleniti sequi adipisci,et harum rem ipsum sapiente id voluptates a.",
         "lienGit": "https://github.com/LysieSoyez/cogip",
         "gitTexte": "Repository GitHub",
         "lienAutre": "https://cogip-3ubzgqgdi-ed0598.vercel.app/",
@@ -14,9 +13,8 @@
     {
         "key":"2",
         "titre": "AZ-Store",
-        "image": "/images/AZ-Store.png",
+        "image": "/images/projets/AZ-Store.png",
         "imageId": "azstore",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus commodi iure eius consequatur excepturi rerum consequuntur eveniet, provident distinctio deleniti sequi adipisci,et harum rem ipsum sapiente id voluptates a.",
         "lienGit": "https://github.com/LysieSoyez/AZ-Store",
         "gitTexte": "Repository GitHub",
         "lienAutre": "",

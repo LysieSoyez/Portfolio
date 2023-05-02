@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-function CarteSolo(props) {
+function CarteSolo() {
   const [data, setData] = useState([]);
 
   useEffect(() => {

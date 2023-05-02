@@ -8,13 +8,13 @@ function Technologie(){
           <h2>
             Language utilisé:
           </h2>
-          <Technobase img="public/images/html-5.png" 
+          <Technobase img="/images/icons/html-5.png" 
             tech={[
-              {img: '/images/html-5.png', title: 'HTML'},
-              {img: '/images/css-3.png', title: 'CSS'},
-              {img: '/images/sass.png', title: 'SASS'},
-              {img: '/images/js.png', title: 'JavaScript'},
-              {img: 'images/github.png', title: 'Git'},
+              {img: '/images/icons/html-5.png', title: 'HTML'},
+              {img: '/images/icons/css-3.png', title: 'CSS'},
+              {img: '/images/icons/sass.png', title: 'SASS'},
+              {img: '/images/icons/js.png', title: 'JavaScript'},
+              {img: 'images/icons/github.png', title: 'Git'},
           ]}  />
           <hr />
           <div className="frameBase">
@@ -22,7 +22,7 @@ function Technologie(){
               <h2>
                 Frameworks :
               </h2>
-              <TechnoUtil image="/images/React.png" title="React" 
+              <TechnoUtil image="/images/icons/React.png" title="React" 
               projects={[
                 {name: 'Cogip ', desc:"(Website)", link: 'https://cogip-3ubzgqgdi-ed0598.vercel.app/'},
                 {name: 'Portfolio ', desc:"(GitHub)", link: 'https://github.com/LysieSoyez/Portfolio'},
@@ -33,7 +33,7 @@ function Technologie(){
               <h2>
                 Connaissance de base:
               </h2>
-              <TechnoUtil image="/images/php.png" title="PHP/SQL" 
+              <TechnoUtil image="/images/icons/php.png" title="PHP/SQL" 
               projects={[
                 {name: 'Hackers Poulette ', desc:"(GitHub)", link: 'https://github.com/LysieSoyez/hackers-poulette'},
               ]}  />
