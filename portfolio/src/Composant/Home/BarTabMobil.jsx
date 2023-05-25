@@ -15,6 +15,7 @@ function BarTabMobil(){
 
       <TabPanels>
         <TabPanel>
+          <a href="#Technologie"/>
           <Technologie />
         </TabPanel>
 

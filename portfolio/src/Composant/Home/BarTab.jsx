@@ -14,7 +14,7 @@ function BarTab(){
           <Tab>Technos</Tab>
           <Tab>Projets</Tab>
           <Tab>About</Tab>
-          <Tab>Contacts</Tab>
+          <Tab>Contact</Tab>
         </TabList>
 
         <TabPanels>

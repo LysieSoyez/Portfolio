@@ -5,7 +5,7 @@
 
 html, body {
   background-color: white;
-  color: black;
+  color: rgb(39, 39, 39);
   min-height: 100vh;
 }
 html #root, body #root {
@@ -13,17 +13,17 @@ html #root, body #root {
 }
 html a, body a {
   font-weight: 700;
-  color: blue;
+  color: rgb(14, 14, 255);
 }
 html li, body li {
   list-style: none;
 }
 html .light, body .light {
   background-color: white;
-  color: black;
+  color: rgb(39, 39, 39);
 }
 html .light #SecretMode, body .light #SecretMode {
-  color: white;
+  color: #eeeeee;
 }
 
 /*Pages*/
@@ -79,7 +79,7 @@ html .bartab, body .bartab {
   text-align: center;
   font-family: "Tilt Neon", cursive;
   background-color: white;
-  color: black;
+  color: rgb(39, 39, 39);
   margin-bottom: 5%;
 }
 .header .ModeButton {
@@ -121,7 +121,7 @@ html .bartab, body .bartab {
   background-color: white;
 }
 .bartabmobil .chakra-tabs__tablist {
-  background-color: black;
+  background-color: rgb(39, 39, 39);
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -366,7 +366,7 @@ html .bartab, body .bartab {
 
 .info {
   background-color: white;
-  color: black;
+  color: rgb(39, 39, 39);
   text-align: center;
   font-family: "Tilt Neon", cursive;
   margin: 5%;
@@ -381,19 +381,19 @@ html .bartab, body .bartab {
 }
 
 .dark {
-  background-color: black;
+  background-color: rgb(39, 39, 39);
   color: white;
 }
 .dark .header {
-  background-color: black;
+  background-color: rgb(39, 39, 39);
   color: white;
 }
 .dark .bartabmobil, .dark .info {
-  background-color: black;
+  background-color: rgb(39, 39, 39);
   color: white;
 }
 .dark #SecretMode {
-  color: black;
+  color: #3b3b3b;
 }
 
 #switchMode {
@@ -416,11 +416,20 @@ html .bartab, body .bartab {
   margin: 0;
   padding: 0;
 }
-.wtf .bartab {
+.wtf .bartab .bartabmobil {
   background-color: lightgreen;
   min-height: 100%;
 }
-.wtf .bartab p, .wtf .bartab h3, .wtf .bartab h2, .wtf .bartab ul {
+.wtf .bartab .bartabmobil p, .wtf .bartab .bartabmobil h3, .wtf .bartab .bartabmobil h2, .wtf .bartab .bartabmobil ul {
+  transform: rotate(180deg);
+  margin: 0;
+  padding: 0;
+}
+.wtf .bartabmobil {
+  background-color: lightgreen;
+  min-height: 100%;
+}
+.wtf .bartabmobil p, .wtf .bartabmobil h3, .wtf .bartabmobil h2, .wtf .bartabmobil ul {
   transform: rotate(180deg);
   margin: 0;
   padding: 0;

@@ -1,7 +1,7 @@
 //colors
 $light:white;
-$color5:blue; //#ed6a5a; //#6fffe9;
-$dark: black;
+$color5:rgb(14, 14, 255); //#ed6a5a; //#6fffe9;
+$dark: rgb(39, 39, 39);
 
 
 //Reset
@@ -28,7 +28,7 @@ html,body{
         background-color: $light;
         color: $dark;
         #SecretMode{
-            color: $light;
+            color: #eeeeee;
         }
     }
 }

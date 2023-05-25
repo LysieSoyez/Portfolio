@@ -4,9 +4,10 @@ import TechnoUtil from "../Composant/Technologies/TechnoUtil";
 
 function Technologie(){
     return(
+      <>
         <div id="Technologie">
           <h2>
-            Language utilisé:
+            Languages utilisé:
           </h2>
           <Technobase img="/images/icons/html-5.png" 
             tech={[
@@ -43,6 +44,7 @@ function Technologie(){
             </div>
           </div>
         </div >
+        </>
     )
 }
 export default Technologie;
