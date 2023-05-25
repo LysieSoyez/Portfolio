@@ -416,11 +416,11 @@ html .bartab, body .bartab {
   margin: 0;
   padding: 0;
 }
-.wtf .bartab .bartabmobil {
+.wtf .bartab {
   background-color: lightgreen;
   min-height: 100%;
 }
-.wtf .bartab .bartabmobil p, .wtf .bartab .bartabmobil h3, .wtf .bartab .bartabmobil h2, .wtf .bartab .bartabmobil ul {
+.wtf .bartab p, .wtf .bartab h3, .wtf .bartab h2, .wtf .bartab ul {
   transform: rotate(180deg);
   margin: 0;
   padding: 0;
