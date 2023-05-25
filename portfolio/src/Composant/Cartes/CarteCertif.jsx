@@ -4,7 +4,7 @@ function CarteCertif() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    fetch('public/json/certifProjects.json')
+    fetch('json/certifProjects.json')
       .then((response) => response.json())
       .then((json) => setData(json));
   }, []);
