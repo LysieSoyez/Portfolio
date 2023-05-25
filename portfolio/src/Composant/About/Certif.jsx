@@ -1,10 +1,10 @@
 import { useState, useEffect } from "react";
 
-function Certif(props) {
+function Certif() {
     const [data, setData] = useState([]);
 
     useEffect(() => {
-      fetch('public/json/certifications.json')
+      fetch('json/certifications.json')
         .then((response) => response.json())
         .then((json) => setData(json));
     }, []);

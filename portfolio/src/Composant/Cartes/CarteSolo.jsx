@@ -4,7 +4,7 @@ function CarteSolo() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    fetch('public/json/projectSolo.json')
+    fetch('json/projectSolo.json')
       .then((response) => response.json())
       .then((json) => setData(json));
   }, []);

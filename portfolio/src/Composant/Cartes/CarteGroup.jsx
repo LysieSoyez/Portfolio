@@ -4,7 +4,7 @@ function CarteGroup() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    fetch('public/json/projectGroup.json')
+    fetch('json/projectGroup.json')
       .then((response) => response.json())
       .then((json) => setData(json));
   }, []);

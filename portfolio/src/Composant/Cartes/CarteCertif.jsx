@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 
-function CarteCertif(props) {
+function CarteCertif() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    fetch('public/json/certifProjects.json')
+    fetch('json/certifProjects.json')
       .then((response) => response.json())
       .then((json) => setData(json));
   }, []);
@@ -35,12 +35,3 @@ function CarteCertif(props) {
 }
 
 export default CarteCertif;
-
-{/* <div className="imageCertif" 
-                {props.slide.map((certif) => (
-                    <img
-                    src={certif.image}
-                    alt="#"
-                    id={certif.id} />
-                ))}
-                </div> */}
