@@ -14,16 +14,13 @@ function CarteCertif(props) {
       {data.length ? data.map((certif) => (
         <>
           <h3>
-            {props.titre}
+            {certif.title}
           </h3>
           <div className='one_card'key={certif.key}>
-            <div className="image" >
-                {props.slide.map((certif) => (
-                    <img
-                    src={certif.image}
-                    alt="#"
-                    id={certif.id} />
-                ))}
+            <div className="imageCertif">
+              {certif.image.map((imageUrl) => (
+                <img src={imageUrl} />
+              ))}
             </div>
             <div className="description">
                 <p>
@@ -38,3 +35,12 @@ function CarteCertif(props) {
 }
 
 export default CarteCertif;
+
+{/* <div className="imageCertif" 
+                {props.slide.map((certif) => (
+                    <img
+                    src={certif.image}
+                    alt="#"
+                    id={certif.id} />
+                ))}
+                </div> */}

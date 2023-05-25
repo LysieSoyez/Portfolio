@@ -1,5 +1,17 @@
 [
     {
-        "description":"ceci est une description"
+        "title": "Personas",
+        "description":"A persona is a fictional user whose goals and characteristics represent the needs of a larger group of users",
+        "image": [
+            "/images/certifs/Persona1.jpg",
+            "/images/certifs/Persona2.jpg"
+        ]
+    },
+    {
+        "title": "User Journey",
+        "description":"User journey is the series of experiences a user has as they achieve a specific goal.",
+        "image":[
+            "/images/certifs/User_journey.jpg"
+        ]
     }
 ]

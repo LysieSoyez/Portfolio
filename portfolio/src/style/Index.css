@@ -243,6 +243,12 @@ html .bartab, body .bartab {
   display: none;
 }
 
+.imageCertif img {
+  width: 50vw;
+  margin: auto;
+  margin-top: 3%;
+}
+
 .title {
   display: flex;
   align-items: center;

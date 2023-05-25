@@ -14,12 +14,13 @@ function Projects(){
             </h2>
             <CarteGroup />
             <h2>
-                <CarteCertif titre="Personas"
+                UX Projects
+            </h2>
+             <CarteCertif
                 slide={[
                     {image: "/images/certifs/Persona1.jpg", id: "persona1"},
                     {image: "/images/certifs/Persona2.jpg", id:"persona2"}
                  ]} />
-            </h2>
         </div>
     )
 }
