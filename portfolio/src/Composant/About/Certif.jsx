@@ -4,7 +4,7 @@ function Certif(props) {
     const [data, setData] = useState([]);
 
     useEffect(() => {
-      fetch('json/certifications.json')
+      fetch('public/json/certifications.json')
         .then((response) => response.json())
         .then((json) => setData(json));
     }, []);
